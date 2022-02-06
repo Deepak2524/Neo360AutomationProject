@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="com.neo360.listners.ResultListener"></listener>
+</listeners>
+  <test thread-count="5" name="PerformanceNsight">
+    <classes>
+      <class name="com.neo360.test.website.PerformanceNsight.PerformanceNsightForGridWithDailyWeeklyAndMonthlyBasisTest"/>
+      <class name="com.neo360.test.website.PerformanceNsight.PerformanceNsightWithGridLayerandCompareCircleKPIAndLayerDataOnWeeklyBasisTest"/>
+      <class name="com.neo360.test.website.PerformanceNsight.PerformanceNsightWithGridLayerAndViewFilterationOnDailyWeeklyAndMontlyBasisTest"/>
+      <class name="com.neo360.test.website.PerformanceNsight.PerformanceNsightWithSiteLayerAndCompareCircleKPIAndLayerDataOnDialyBasisTest"/>
+      <class name="com.neo360.test.website.PerformanceNsight.PerformanceNsightForSiteWithDailyWeeklyAndMonthlyTest"/>
+      <class name="com.neo360.test.website.PerformanceNsight.PerformanceNsightWithSiteLayerAndViewFilterationOnDailyWeeklyAndMontlyBasisTest"/>
+      
+    </classes>
+  </test> <!-- PerformanceNsight -->
+</suite> <!-- Suite -->
